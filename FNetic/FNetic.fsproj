@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ByteHandler.fs" />
+    <Compile Include="Primitives.fs" />
+    <Compile Include="TcpSegment.fs" />
+    <Compile Include="UdpDatagram.fs" />
+    <Compile Include="Ipv4.fs" />
+    <Compile Include="Ipv6.fs" />
+    <Compile Include="EthernetFrame.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpYaml" Version="1.6.6" />
+  </ItemGroup>
+</Project>
